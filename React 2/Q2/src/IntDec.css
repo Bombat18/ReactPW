@@ -1,0 +1,47 @@
+.maindiv{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+   
+}
+    
+div,h1{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    
+}
+
+.subdiv{
+text-align: center;
+}
+.div{
+    background-color: rgb(255, 62, 65);
+    padding: 40px;
+    border-radius: 10px;
+}
+.button{
+    border: none;
+    display: flex;
+    column-gap: 10px;
+}
+button{
+    border: none;
+    width: 90px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    -webkit-user-select: none;
+   -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
